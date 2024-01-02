@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML FORM</h2>
+
+    <form action="https://api-gateway.fullstack.edu.vn/action_page.php" method="post">
+        <div>
+            <label for="lbl-name">Họ và tên</label>
+            <input type="text" 
+             id="lbl-name" 
+             placeholder="Họ và tên"
+             value=""
+             required
+             >   
+        </div>
+        <div>
+            <label for="lbl-email">Email</label>
+            <input type="email" 
+             id="lbl-mail" 
+             placeholder="Email"
+             value=""
+             required
+             >
+        </div>
+        <div>
+            <label for="lbl-password">Password</label>
+            <input type="password" 
+             id="lbl-password" 
+             placeholder="Password"
+             value=""
+             required
+             >
+        </div>
+        <div>
+            <label for="lbl-yearold">tuổi</label>
+            <input type="number" 
+             id="lbl-yearold" 
+             placeholder="tuổi"
+             min="18"
+             max="100"
+             step="0.5"
+             value=""
+             required
+             >
+        </div>
+        <div>
+            <label for="lbl-avartar">Avartar</label>
+            <input type="file" 
+             id="lbl-avartar" 
+            name="avatar"
+             >
+        </div>
+        <div>
+            <label for="lbl-search">search</label>
+            <input type="search" 
+             id="lbl-search" 
+             placeholder="tìm kiếm"
+             value=""
+             required
+             >
+        </div>
+        <div>
+            <label for="lbl-birthday">Birthday</label>
+            <input type="date" 
+             id="lbl-birthday" 
+             value=""
+             required
+             >
+        </div>
+        <div>
+            <label for="lbl-color">Color</label>
+            <input type="color" 
+             id="lbl-color"
+
+             >
+        </div>
+        <div>
+            <label >Giới tính</label>
+        <label> 
+            <input type="radio" name="gioi_tinh" value="nam" checked/> Nam
+         </label>
+        <label>
+            <input type="radio" name="gioi_tinh" value="nu" /> Nu 
+        </label>
+        </div>
+        <div>
+            <label >bạn biết tới f8 qua đâu?</label>
+        <label> 
+            <input type="checkbox" name="source" value="1"/> tin đồn
+         </label>
+         <label> 
+            <input type="checkbox" name="source" value="2"/> facebook
+         </label>
+         <label> 
+            <input type="checkbox" name="source" value="3"/> google
+         </label>
+        </div>
+        <div>
+            <label for="lbl-price">giá</label>
+            <input type="range" 
+             id="lbl-price" 
+             value="0"
+             name="price"
+             step="0.5"
+             >
+        </div>
+        <div>
+            <textarea name="message" id="lbl-message"placeholder="tin nhắn"></textarea>
+        </div>
+        <div>
+            <label for="lbl-tỉnh">
+                <select name="province" id="lbl-tỉnh">
+                    <option value="0">chọn tỉnh/thành phố</option>
+                    <option value="1">Hà Nội</option>
+                    <option value="2">Đà Nẵng</option>
+                    <option value="3">tp HCM</option>
+                </select>
+
+            </label>
+        </div>
+        
+        
+    </form>
+    <button>submit</button> 
+
+    
+</body>
+</html>

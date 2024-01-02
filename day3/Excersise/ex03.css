@@ -1,0 +1,27 @@
+/* selector
+dung dau . voi class
+dungdau # cho id
+ten the html
+tim hieu them 
++
+~
+,
+attribute
+
+*/
+#product-title {
+    color: aquamarine;
+}
+.product-number {
+    color: blueviolet;
+}
+.box > .title {
+    color: red;
+}
+
+.content h2.title {
+    color: red;
+}
+.content h3.title {
+    color: yellow ;
+}
