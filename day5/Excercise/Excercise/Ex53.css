@@ -1,0 +1,58 @@
+/* thuộc tính line-height: chiều cao dòng, giãn dòng 
+***không dùng đơn vị tuyệt đối***
+*/
+/* thuộc tính font-family: thiết lập thuộc tính font chữ
+
+*/
+/* họ font ko chân: sans-serif
+họ font có chân: serif */
+/* độ dày và độ nghiêng
+font-weight: normal|100~900|bold
+font-style: normal, italic
+*/
+/* text-decoration: thuộc tính quy định gạch chân cho văn bản */
+
+/* text-transform: thay đổi chữ thường chữ hoa
+
+ */
+  /* letter-spacing: tạo khoảng cách giữa các kí tự
+  word-spacing: tạo khoảng cách giữa các từ */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+/* @font-face{
+    font-family: lato;
+    src:url(../Excercise/font/Lato-Light.ttf)
+    font-weight: 300;
+}
+@font-face{
+    font-family: lato;
+    src:url(../Excercise/font/Lato-Regular.ttf)
+    font-weight: 400;
+}
+@font-face{
+    font-family: lato;
+    src:url(../Excercise/font/Lato-Regular.ttf)
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face{
+    font-family: lato;
+    src:url(../Excercise/font/Lato-Bold.ttf)
+    font-weight: 700;
+} */
+p{  font-style: normal;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: lato; */
+    font-size: 20px;
+    line-height: 1.5;
+    /* letter-spacing: 0.5em; */
+    word-spacing: 5px;
+    /* text-decoration: overline underline line-through; */
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}

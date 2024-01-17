@@ -1,0 +1,36 @@
+/* thuộc tonhs background
+-background-color
+-background-image
+-background-size
+-background-repeat
+-background-position
+-background-attachment
+-background
+-lưu ý: trong color sẽ có thuộc tính transparent
+
+*/
+body{
+    height: 2000px;
+    /* height: 550px;
+    background-color: rgba(170, 151, 188, 0.018);
+    background-image: url(https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+}
+.title{
+    background: pink;
+}
+.banner{
+    /* height: 550px;
+    background-color: rgba(170, 151, 188, 0.018);
+    background-image: url(https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; */
+    background: rgba(155, 109, 197, 0.201)
+    url(https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-6.jpg) 
+    no-repeat 0 0 / cover fixed;
+    
+}

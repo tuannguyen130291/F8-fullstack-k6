@@ -1,0 +1,42 @@
+/* padding
+- 1 giá trị: top right bottom left
+- 2 giá trị: top,bottom left,right
+- 3 giá trị:
+lưu ý: padding đơn vị % --> tỉ lệ theo width của thẻ cha
+padding chỉ có tác dụng top bottom neus như đó là thẻ block
+
+*/
+
+/* .box{
+    border: 1px red solid;
+    padding: 20px;
+    width: 300px;
+}
+.link{
+    border: 1px green solid;
+    padding: 15px 30px;
+    text-decoration: none;
+    /* display: inline-block;  chuyển sang thẻ block mới có thể padding top và bottom
+ */
+
+
+/* tỉ lệ
+- 1x1 : 100%
+- 4x3 : 75%
+- 3x2 : 66.66%
+- 8x5 : 62.5%
+- 16x9 : 56.25%
+- 21x9 : 42.85%
+
+tìm hiể thêm thuộc tính aspec-ratio
+*/
+.content{
+   border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+.content > .children{
+    background-color: aqua;
+    /* padding-top: 100%; */
+    /* aspect-ratio: 4/3; */
+}

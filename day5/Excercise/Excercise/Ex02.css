@@ -1,0 +1,31 @@
+/* thuộc tính Font-size
+các đơn vị trong CSS:
+1- tuyệt đối 
+px
+pt= 1.3px
+2- Tương đối:
+-em: kế thừa theo thành phần cha
+-rem: kế thừa theo thành phần root:html
+-%: kế thừa theo thành phần cha
+-vh: viewport height
+-vw: viewport weight
+-fr: grid css
+
+*/
+
+html{
+    font-size: 10px;
+}
+/* .wrapper .content p{
+    color: aquamarine;
+    font-size: 30px;
+} */
+.body{
+    font-size: 1.6rem;
+}
+.wrapper{
+    font-size: 1.5em;
+}
+.wrapper .content{
+    font-size: 1.5em;
+}

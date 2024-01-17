@@ -1,0 +1,32 @@
+/* chỉ áp dụng cho thẻ block
+đơn vị :
+%: tỉ lệ với thành phần cha
+*/
+/* vw: tỉ lệ với chiều rộng của viewport
+vh: tỉ lệ với chiều cao của viewport */
+/* 
+max-width: chiều rộng lớn nhất
+min-width: chiều rộng nhỏ nhất
+*/
+
+
+.box{
+    width: 400px;
+    border: 1px solid black;
+}
+.text{
+    width: 1000px;
+    border: 1px springgreen solid;
+}
+.box2{
+
+    /* border: 1px springgreen solid;
+    max-width:400px;
+    width: 200px;
+    min-width: 100px; */
+
+
+}
+/* thuộc tính overflow
+
+*/

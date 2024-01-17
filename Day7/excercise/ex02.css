@@ -1,0 +1,22 @@
+.box{
+    border:1px solid red;
+    width: 200px;
+    height: 200px;
+     /* overflow: visible; */
+     /* overflow: auto; */
+     overflow-y: auto;
+     overflow-x: hidden;
+
+}
+.box p{
+    width: 400px;
+   
+}
+/* thuộc tính overflow
+- visible: giữ nguyên
+- hidden: ẩn 
+- scroll: tạo thanh cuộn
+- auto: tạo thanh cuộn khi tràn
+- overflow-x: thiết lập theo trục x
+- overflow-y: thiết lập theo trục y
+*/

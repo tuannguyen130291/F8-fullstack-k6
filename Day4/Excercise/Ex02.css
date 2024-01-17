@@ -1,0 +1,31 @@
+/*ul li a[target] {
+  color: red;
+}*/
+
+/*ul li a[href="vnepress.net"] {
+  color: aqua;
+}*/
+
+/* "^="
+chọn giá trị bắt đầu bằng giá trị sau dấu "^="*/
+/*ul li a[href^="https://fullstack.edu.vn"] {
+    color: rgb(255, 0, 111);
+  }*/
+
+  /* [ten thuoc tinh*=gia tri]
+  chọn những thuộc tính chứa giá trị
+  */
+  /* ul li a[href*="fullstack.edu.vn"] {
+    color: rgb(255, 0, 111);} */
+    /* [ten thuoc tinh$=gia tri]
+  chọn những thuộc tính kết thúc bằng gia tri trong chuỗi
+
+  */
+  /*bai tập chọn các thẻ html có class bắt đầu bằng title và nằm sau thẻ h1*/
+/*.content h1~ [class^="title"]{
+    color: red;
+}*/
+/* chọn tất cả các thẻ html nằm trong content "*" */
+.content * {
+    color: red;}
+

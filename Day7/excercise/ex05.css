@@ -1,0 +1,15 @@
+/* margin
+- đơn vị %, em, rem px.
+các đơn vị % vẫn theo width
+
+
+*/
+.box{
+    border: 1px solid red;
+    width: 200px;
+    padding: 20px;
+    /* margin: 30px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}

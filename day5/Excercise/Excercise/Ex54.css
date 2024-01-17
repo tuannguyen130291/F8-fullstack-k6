@@ -1,0 +1,22 @@
+/* chức năng tự đọng ngắt dòng */
+.content p{
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+}
+/* thụt lề cho đoạn văn bản */
+.content p{
+    color: blueviolet;
+    text-indent: 10px;
+    text-align: right;
+    text-align-last: left;
+}
+/* text align: căn chỉnh văn bản theo chiều ngang */
+/* left
+    right : phải
+    center: thu vào giữa
+    justify: căn đều hai bên
+    chỉ áp dụng cho thẻ block
+ */
+ .image{
+    text-align: center;
+ }

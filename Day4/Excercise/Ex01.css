@@ -1,0 +1,29 @@
+/* chọn thành phần đứng sau: ~ 
+-ngang hàng
+-cùng thuộc một cha*/
+ul ~ h2{
+    color: red;
+}
+/* chọn thành phần đứng sau liên kề:  +
+-ngang hàng
+-cùng thuộc một cha*/
+ul + li{
+    color: red;
+}
+
+/*.box p + h2 + h2{
+    color: green;
+}*/
+/*.box h2 + h2{
+    color: green;
+}*/
+/*dùng 2 selector */
+/*.box p + h2 {
+    color: greenyellow;
+}
+.box p + h2 + h2 {
+    color: aqua;
+}*/
+/* Gộp selector bằng dấu ","
+selector1, selector2, ....
+*/

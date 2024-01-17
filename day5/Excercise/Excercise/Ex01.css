@@ -1,0 +1,36 @@
+/* /* thuộc tính định dạng text
+color: thay đổi màu văn bản
+cú pháp color: value_color
+value_color= tên màu
+value_color= mã hexa
+value_color= mã rgb
+value_color= mã hsl */
+
+/* -color opacity: độ đậm nhạt của màu thay đổi từ 0.0~1.0
+- initial-->:  khôi phục giá trị mặc định ban đầu
+- inherit-->: giá trị kế thừa
+
+*/
+.title{
+    color: red(56, 180, 14, 0.918);
+}
+.title::before{
+    content: "F8";
+    color: blueviolet;
+}
+.title:hover:before{
+    color: currentColor;
+}
+
+.title:hover{
+    color: initial;
+}
+.sub-title{
+    color: rgba(56, 180, 14, 0.322);
+}
+.sub-title:hover{
+    color: inherit;
+}
+.content{
+    color: red;
+}

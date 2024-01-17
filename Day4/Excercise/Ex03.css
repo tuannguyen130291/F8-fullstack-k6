@@ -1,0 +1,105 @@
+/*
+pseudo Element: phần tử giả
+:before
+:after
+::first-letter
+::first-line
+::selection
+::placeholder
+*/
+/*.title::before{
+    content: "a"
+}
+.title::after{
+    content: "b"
+}*/
+/*.title::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: red;
+    margin: auto;
+    translate: -100%;
+}*/
+/*
+p::first-line{
+    color: aqua;
+}
+p::first-letter{
+    color: blueviolet;
+}
+p::selection{
+    color: blue;
+    background: black;
+}
+input::placeholder{
+    color: yellow;
+}*/
+/* lớp giả: Pseudo class( trạng thái)
+:active
+:hover
+:checked
+:focus
+:disable
+:not()
+:first-child
+:last-child
+:first-child
+:last-child
+:first-of-type
+:last-of-type
+
+
+*/
+/* .title:hover{
+    color: red;
+} */
+/* .title:active{
+    color: rgb(153, 78, 203);
+} */
+/* .btn:focus, .title{
+    color: rgb(16, 114, 91);
+} */
+.register-form input:focus::placeholder{
+    color: red;
+}
+.sub-title:focus{
+    outline: 0;
+    border: 1px dotted red;}
+
+
+/* .sub-title:active{
+    color: blueviolet;
+    font-size: 30px;
+} */
+/* .todos input:checked ~ span{
+    color: red; */
+/* } */
+/* .todos input[disabled] ~ span{
+    /* color: green;
+} */
+/*loại trừ thẻ h2 có class sale*/
+/*.product h2:not(.sale){
+    color: yellowgreen;
+}
+.product h2:first-child{
+    color: aqua;
+}
+.product h2:last-child{
+    color: beige;
+}
+*/
+/* .product h1:first-of-type{
+    color: red;
+}
+.product h3:last-of-type{
+    color: red;
+}
+ */
+/* .product h2:nth-child(3){
+    color: red;
+} */
+.product h2:nth-child(2n+1){
+    color: red;
+}
